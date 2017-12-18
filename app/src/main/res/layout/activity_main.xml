@@ -11,12 +11,12 @@
     tools:context="omy.boston.standardactbar.MainActivity">
 
     <TextView
+        android:id="@+id/touchableTekst"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Za promjenu dodirni!"
-        android:id="@+id/touchableTekst"
-        android:textSize="24sp"
-        android:gravity="center"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:text="Touch will make Action Bar hide... "
+        android:textSize="24sp" />
 </RelativeLayout>
